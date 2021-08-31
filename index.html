@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./images/logo.svg" alt="" />
+      </div>
+      <div class="score">
+        <h3>Score</h3>
+        <h1>12</h1>
+      </div>
+    </header>
+    <main class="container">
+      <div class="paper" data-choice="paper">
+        <button class="btn">
+          <img src="./images/icon-paper.svg" alt="" />
+        </button>
+      </div>
+
+      <div class="scissors" data-choice="scissors">
+        <button class="btn">
+          <img src="./images/icon-scissors.svg" alt="" />
+        </button>
+      </div>
+
+      <div class="rock" data-choice="rock">
+        <button class="btn">
+          <img src="./images/icon-rock.svg" alt="" />
+        </button>
+      </div>
+    </main>
+    <section>
+      <div class="title">
+        <h2>You Picked</h2>
+        <h2>The house picked</h2>
+      </div>
+      <div class="selected">
+        <div class="player-btn"></div>
+
+        <div class="result">
+          <h1>win</h1>
+          <button>Play Again</button>
+        </div>
+        <div class="com-btn"></div>
+      </div>
+    </section>
+    <div class="rules">
+      <img src="./images/image-rules.svg" alt="" />
+    </div>
+
+    <aside>
+      <button>Rules</button>
+    </aside>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
